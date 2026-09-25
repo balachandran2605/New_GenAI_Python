@@ -1,7 +1,6 @@
-a = float(input("Enter first number: "))
-b = float(input("Enter second number: "))
-
-print("Sum:", a + b)
-print("Difference:", a - b)
-print("Product:", a * b)
-print("Division:", a / b)
+for x in ["red","white","black"]:
+    print("--------------")
+    for y in ["ball","shirt","phant"]:
+        print(x,y)
+print("---------------")
+print("loop over")
